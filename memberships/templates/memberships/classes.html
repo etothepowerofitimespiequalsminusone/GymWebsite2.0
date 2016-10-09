@@ -1,0 +1,12 @@
+{% extends 'memberships/base.html' %}
+{% block title %} Classes {% endblock %}
+{% block body %}
+    {% for class in classes_list %}
+
+        <div class="panel panel-default col-sm-4 col-sm-offset-1">
+          <div class="panel-heading">{{ class.name }}</div>
+          <div class="panel-body">{{ class.description }}</div>
+        </div>
+    {% endfor %}
+
+{% endblock %}

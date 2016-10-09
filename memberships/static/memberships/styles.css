@@ -1,0 +1,12 @@
+.navbar-inverse{
+    background-color: #fff176;
+    border: none;
+}
+.navbar-inverse li:hover{
+    background-color: #ffeb3b;
+}
+
+.panel-default .panel-heading{
+    background-color: #fff176;
+    width: 100%;
+}

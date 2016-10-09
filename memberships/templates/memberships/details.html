@@ -1,0 +1,7 @@
+{% extends 'memberships/base.html' %}
+{% block title %} Memberships {% endblock %}
+{% block body %}
+{% for type in type_list %}
+    <li>{{ type.type }} {{ type.type_description }}</li>
+    {% endfor %}
+{%  endblock %}
